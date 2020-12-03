@@ -5,7 +5,8 @@ uuid = "ad883291-88ea-4fa3-939a-d67434df9db2"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 
 [extras]
+SimpleMock = "a896ed2c-15a5-4479-b61d-a0e88e2a1d25"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = ["Test"]
+test = ["SimpleMock", "Test"]
