@@ -2,7 +2,10 @@ name = "Advent"
 uuid = "ad883291-88ea-4fa3-939a-d67434df9db2"
 
 [deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 
 [extras]
 SimpleMock = "a896ed2c-15a5-4479-b61d-a0e88e2a1d25"
